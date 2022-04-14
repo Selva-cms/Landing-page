@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/style.css" />
+    <title>LANDING PAGE</title>
+  </head>
+  <body>
+    <div
+      style="background-image: url('public/background-img.png')"
+      class="w-full h-screen bg-cover bg-no-repeat absolute"
+    ></div>
+    <div class="relative max-w-6xl mx-auto flex justify-between items-center py-5">
+      <div class="ml-10 md:ml-0">
+          <a href="#"><img src="public/logo.png" alt="Logo" class="w-10 h-10"></a>
+      </div>
+      <div class="text-white md:block hidden">
+        <a href="#" class="text-xs font-semibold tracking-wide px-3 py-2 hover:border-b-2 hover:border-yellow-500 shadow-xl">HOME</a>
+        <a href="#" class="text-xs font-semibold tracking-wide px-3 py-2 hover:border-b-2 hover:border-yellow-500 shadow-xl">ABOUT US</a>
+        <a href="#" class="text-xs font-semibold tracking-wide px-3 py-2 hover:border-b-2 hover:border-yellow-500 shadow-xl">PORTFOLIO</a>
+        <a href="#" class="text-xs font-semibold tracking-wide px-3 py-2 hover:border-b-2 hover:border-yellow-500 shadow-xl">INFO</a>
+        <a href="#" class="text-xs font-semibold tracking-wide px-4 py-2 hover:bg-yellow-600 shadow-xl bg-yellow-400 rounded-full ml-1 text-black">CONTACT</a>
+      </div>
+      <!-- Mobile menu -->
+      <div class="mr-10 md:mr-0 md:hidden">
+        <button class="bg-yellow-400 px-4 py-2 rounded-full">Menu</button>
+      </div>
+    </div>
+    <div class="relative max-w-6xl mx-auto md:flex ">
+        <div class="md:w-1/2 md:mt-28 mt-10 md:mx-0 mx-10">
+            <p class="text-lg font-semibold text-yellow-500 tracking-wide">Lorem ipsum</p>
+            <h1 class="text-7xl font-extrabold tracking-wide text-gray-500 mb-8">Web Design</h1>
+            <p class="font-medium text-gray-700 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, asperiores quasi, dolores, repellat id fugit officia accusantium facilis ipsa voluptatem soluta excepturi tempore eveniet. Mollitia, soluta. Natus, error! Voluptatibus, illum.</p>
+
+          <div class="text-center md:text-left">
+            <a href="#" class="bg-yellow-400 py-2 px-4 rounded-full font-semibold tracking-wide hover:bg-yellow-600 text-center">Get Started</a>
+          </div>
+        </div>
+        <div class="md:w-1/2 mt-10  mx-10 md:mx-0 md:block hidden">
+            <img src="./public/hero.png" alt="Hero-img" class="w-full h-full">
+        </div>
+    </div>
+  </body>
+</html>
